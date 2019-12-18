@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Palette town"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="159dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="331dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="It is a facility where you can enjoy a Ferris wheel that is a symbol of Odaiba. Overlooks Tokyo Tower, Tokyo Skytree and Tokyo Gate Bridge."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="262dp" />
+        tools:layout_editor_absoluteY="425dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="372dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -40,5 +40,13 @@ Business Hours: 11:00am-9:00pm
 Website: https://www.palette-town.com/guide/facilities.html
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteY="616dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="371dp"
+        android:layout_height="313dp"
+        app:srcCompat="@drawable/palette_town"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
