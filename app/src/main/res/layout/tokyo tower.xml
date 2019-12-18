@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TokyoTower">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tokyo Tower"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The official name is Nippon Radio Tower. Height is 333m. The special observation deck of 250m with a copper structure of a three-dimensional transformer with a square cross section can see the scenery overlooking Tokyo"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 4-2-8 Shiba-Koen Minato-ku
+Telephone: 0334335111
+Business Hours: 9:00am-10:00pm
+Website: https://www.tokyotower.co.jp/
+"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="546dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
