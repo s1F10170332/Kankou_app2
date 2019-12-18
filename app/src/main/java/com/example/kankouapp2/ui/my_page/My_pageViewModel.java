@@ -1,16 +1,16 @@
-package com.example.kankouapp2.ui.notifications;
+package com.example.kankouapp2.ui.my_page;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class My_pageViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public My_pageViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("This is my page fragment");
     }
 
     public LiveData<String> getText() {

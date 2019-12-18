@@ -1,4 +1,4 @@
-package com.example.kankouapp2.ui.notifications;
+package com.example.kankouapp2.ui.my_page;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.kankouapp2.R;
 
-public class NotificationsFragment extends Fragment {
+public class My_pageFragment extends Fragment {
 
-    private NotificationsViewModel notificationsViewModel;
+    private My_pageViewModel my_pageViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        notificationsViewModel =
-                ViewModelProviders.of(this).get(NotificationsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_notifications, container, false);
-        final TextView textView = root.findViewById(R.id.text_notifications);
-        notificationsViewModel.getText().observe(this, new Observer<String>() {
+        my_pageViewModel =
+                ViewModelProviders.of(this).get(My_pageViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_my_page, container, false);
+        final TextView textView = root.findViewById(R.id.text_my_page);
+        my_pageViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
