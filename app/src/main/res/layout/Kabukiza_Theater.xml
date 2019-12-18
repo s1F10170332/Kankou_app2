@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KabukizaTheater">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kabukiza Theater"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A theater dedicated to watching Kabuki. It has a capacity of about 2000 people and is the largest in Japan."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:  Tokyo, Chuo-ku, Ginza 4-chome 12-15
+        Tellphone: 033545-6564
+Business Hours:　AM9:00-18:30
+Website: https://www.kabukiweb.net/theatres/kabukiza/"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="492dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
