@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yokohama_Minato_Mirai_21">
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yokohama Minato Mirai 21"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are amusement parks, art museums, shopping malls, etc., and the night view you can enjoy from the sea by cruising is also wonderful! Light up and many buildings are beautiful just because they are urban"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go here"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website:http://minatomirai21.com/"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="591dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sagami_lake_Resort_Pleasure_Forest">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sagami lake Resort Pleasure Forest"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sagami lake Resort Pleasure Forest is an amusement park area with attractions and a camp barbecue area where you can play all day long. There are everything from ferris wheels and screaming machines to attractions where small children can play. Spectacular illumination events will be held from autumn to winter"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go here"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website:https://www.sagamiko-resort.jp/
+Address:〒252-0175　Sagamihara-shi,midori-ku,wakayanagi,1634
+TEL:0570-037-353
+"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="602dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
