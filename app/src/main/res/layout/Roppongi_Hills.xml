@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Roppongi Hills"
         tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:layout_editor_absoluteY="356dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,9 +40,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="347dp"
         app:srcCompat="@drawable/images"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
