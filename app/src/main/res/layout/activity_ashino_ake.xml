@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ashino_ake">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashino lake"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are sightseeing spots such as Hakone Shrine and pleasure boats around Lake Ashinoko, and there are accommodations such as ryokan. You can enjoy a “different world” that you can't think of being within a day trip from the city."
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go here"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website:http://www.hakone-ashinoko.net/
+Address:〒250-0522 Ashigarashimogun,hakonemachi,motohakone
+"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="602dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

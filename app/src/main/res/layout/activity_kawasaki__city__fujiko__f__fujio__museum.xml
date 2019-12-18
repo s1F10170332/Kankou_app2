@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kawasaki_City_Fujiko_F_Fujio_Museum">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kawasaki City Fujiko F. Fujio Museum"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can get a glimpse of the life of Fujiko, F, and Fujio. You can also touch original pictures and replicas of Fujiko F. Fujio's works such as Doraemon"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go here"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website:http://fujiko-museum.com/
+Address:〒214-0023 Kawasaki-shi,tama-ku,nagao,2-8-1
+"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="640dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
