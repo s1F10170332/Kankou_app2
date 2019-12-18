@@ -19,8 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="“Meigetsu-in” is famous as a hydrangea sight, but the maple of the main hall after the autumn leaves was released, which is also a masterpiece! There are days when there are surprisingly few people and you can enjoy it slowly. Pay attention to the “Maru window” in the main hall."
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="318dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="321dp" />
 
     <Button
         android:id="@+id/button19"
