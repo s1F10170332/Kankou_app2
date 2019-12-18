@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RyogokuKokugikan">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ryogoku Kokugikan"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A facility for the performance of sumo wrestling and a sacred place for sumo. There are concerts and professional wrestling, not just a sumo wrestling facility. It will also be used at the boxing competition venue at the Tokyo Olympic 2020."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 1-28 Yokozuna, Sumida-ku, Tokyo
+Business Hours: Weekdays 7:00am-10:00pm
+               Saturdays,Sundays,and holidays 9:00am-9:00pm
+Telephone: 0336252111
+Website: http://www.sumo.or.jp/
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="505dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
