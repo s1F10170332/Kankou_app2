@@ -9,6 +9,6 @@ public class TsukijiMarket extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Tsukiji_Market);
+        setContentView(R.layout.tsukiji_market);
     }
 }

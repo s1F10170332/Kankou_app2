@@ -9,6 +9,6 @@ public class RoppongiHills extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_roppongi_hills);
+        setContentView(R.layout.roppongi_hills);
     }
 }

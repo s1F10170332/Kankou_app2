@@ -9,6 +9,6 @@ public class TokyoStation extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tokyo_station);
+        setContentView(R.layout.tokyo_station);
     }
 }
