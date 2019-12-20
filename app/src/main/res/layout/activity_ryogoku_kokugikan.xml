@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ryogoku Kokugikan"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="356dp" />
 
     <TextView
         android:id="@+id/textView20"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="A facility for the performance of sumo wrestling and a sacred place for sumo. There are concerts and professional wrestling, not just a sumo wrestling facility. It will also be used at the boxing competition venue at the Tokyo Olympic 2020."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteY="434dp" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="347dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="548dp" />
 
     <TextView
         android:id="@+id/textView21"
@@ -41,5 +41,13 @@ Telephone: 0336252111
 Website: http://www.sumo.or.jp/
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="505dp" />
+        tools:layout_editor_absoluteY="629dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ryougoku"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="118dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

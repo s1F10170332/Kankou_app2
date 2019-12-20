@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Takeshita Street"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="376dp" />
 
     <TextView
         android:id="@+id/textView17"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="A store located in Jingumae, Shibuya-ku, Tokyo. There are many shops that incorporate fashion and trends for young people. In the past, the bamboo shoot tribe was famous."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="207dp" />
+        tools:layout_editor_absoluteY="449dp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="366dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="551dp" />
 
     <TextView
         android:id="@+id/textView18"
@@ -38,5 +38,13 @@
 Website:  https://www.takeshita-street.com/
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="504dp" />
+        tools:layout_editor_absoluteY="641dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="414dp"
+        android:layout_height="239dp"
+        android:src="@drawable/takeshitadori"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

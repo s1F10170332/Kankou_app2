@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kabukiza Theater"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="86dp" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="299dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="A theater dedicated to watching Kabuki. It has a capacity of about 2000 people and is the largest in Japan."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="188dp" />
+        tools:layout_editor_absoluteY="418dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="311dp" />
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="522dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -39,5 +39,13 @@
 Business Hours:　AM9:00-18:30
 Website: https://www.kabukiweb.net/theatres/kabukiza/"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="492dp" />
+        tools:layout_editor_absoluteY="613dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="358dp"
+        app:srcCompat="@drawable/kabukiza"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="4dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

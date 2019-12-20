@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Kabukicho"
         tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="115dp" />
+        tools:layout_editor_absoluteY="322dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="Kabukicho in Shinjuku-ku, Tokyo. Neon city is shining. City of night."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="211dp" />
+        tools:layout_editor_absoluteY="409dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="321dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="499dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -36,5 +36,13 @@
         android:layout_height="wrap_content"
         android:text="Address:: 1-chome Kabukicho, Shinjuku-ku, Tokyo"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="495dp" />
+        tools:layout_editor_absoluteY="620dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="548dp"
+        android:layout_height="217dp"
+        app:srcCompat="@drawable/kabukicho"
+        tools:layout_editor_absoluteX="-69dp"
+        tools:layout_editor_absoluteY="64dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,9 +40,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="360dp"
-        android:layout_height="347dp"
-        app:srcCompat="@drawable/images"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="332dp"
+        android:layout_height="411dp"
+        app:srcCompat="@drawable/roppongihills"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

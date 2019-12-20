@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tsukiji Market"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="303dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="It is a public wholesale market that has been used for 83 years from 1935 to 2018. Even now, it is a lively place where you can enjoy fresh seafood."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="188dp" />
+        tools:layout_editor_absoluteY="367dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="334dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="500dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -38,5 +38,13 @@
  Website:  http://www.tsukiji.or.jp/
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteY="616dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="365dp"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/tukiji"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="67dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

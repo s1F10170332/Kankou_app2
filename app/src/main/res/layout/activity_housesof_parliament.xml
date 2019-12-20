@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Houses of Parliament"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="121dp" />
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="326dp" />
 
     <TextView
         android:id="@+id/textView14"
@@ -22,15 +22,15 @@
 The site area is 103,000m2 and the building area is 3358m2.
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="233dp" />
+        tools:layout_editor_absoluteY="422dp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="359dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="542dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -42,5 +42,13 @@ Telephone:  0355217445
 Website:  https://www.sangiin.go.jp/japanese/taiken/bochou/kengaku.html
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="539dp" />
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="358dp"
+        android:layout_height="312dp"
+        android:src="@drawable/kokkai"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
