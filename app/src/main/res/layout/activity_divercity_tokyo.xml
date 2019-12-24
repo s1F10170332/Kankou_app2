@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".divercity_tokyo">
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diver City Tokyo"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is a commercial facility with the concept of a theatrical city space, where you can experience playing, learning, relaxing, and being surprised."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 1-10 Aomi 1-chome, Koto-ku, Tokyo
+Telephone: 0363807800
+Business Hours: 10:00am-10:00pm
+Website: https://mitsui-shopping-park.com/divercity-tokyo/
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="341dp"
+        android:layout_height="303dp"
+        app:srcCompat="@drawable/divercity_tokyo"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

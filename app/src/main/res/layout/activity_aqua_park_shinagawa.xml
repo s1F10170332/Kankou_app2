@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aqua_park_shinagawa">
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqua Park Shinagawa"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is an aquarium that fuses the latest technology using sound and light with sea creatures. It is a hands-on aquarium with projection mapping and touch panels."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 4-30, Takanawa, Minato-ku, Tokyo 10-30, Shinagawa Prince Hotel
+Telephone: 0354211111
+Business Hours: 10:00am-10:00pm
+Website: http://www.aqua-park.jp/aqua/index.html
+"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="342dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/aqua_park_shinagawa"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="64dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

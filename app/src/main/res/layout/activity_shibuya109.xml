@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shibuya109">
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shibuya109"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is a sacred place for fashion for young Japanese girls. A commercial facility with many shops."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 29-1 Dogenzaka, Shibuya-ku, Tokyo
+Telephone: 0334775111
+Business Hours: 10:00am-9:00pm
+Website: https://www.shibuya109.jp/
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="339dp"
+        android:layout_height="235dp"
+        app:srcCompat="@drawable/shibuya109"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="78dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
