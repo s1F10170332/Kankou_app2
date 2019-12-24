@@ -40,4 +40,12 @@ TEL 0467-22-6300
 "
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="571dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hase"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="36dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,16 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hokoku Temple"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <TextView
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Once you enter Bamboo Forest, there is another world! There is a healing space that makes you feel unintentionally. While in Kanagawa, you can also enjoy zazen and tea."
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="291dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="300dp" />
 
     <Button
         android:id="@+id/button17"
@@ -38,6 +38,14 @@
 Address:〒248-0003 Kamakura-shi,jyoumyouji,2-7-4
 TEL : 0467-22-0762
 "
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="640dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="335dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/houkoku"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
