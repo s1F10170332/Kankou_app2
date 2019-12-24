@@ -11,16 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kamakura Daibutsuden Kotoku-in"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="246dp" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Speaking of Kamakura here! Kamakura Daibutsuden Kotoku-in is famous for its famous sightseeing spot in Kamakura. The height is about 13m including the pedestal. Nara's Great Buddha is quite powerful even if you actually see it without being enemies"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="318dp" />
 
     <Button
         android:id="@+id/button10"
@@ -38,6 +38,14 @@
 Address:〒248－0016 Kamakura-shi,hase,４-２-28
 TEL： 0467-22-0703
 "
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="634dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/daibutu"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="27dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
