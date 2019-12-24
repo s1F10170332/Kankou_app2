@@ -11,24 +11,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Shin-Yokohama Ramen Museum"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="162dp" />
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="237dp" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A spot where you can enjoy various ramen at once. Some shops also sell small-sized ramen so that women can enjoy several cups of ramen! Recommended for women who cannot eat too much"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="291dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="313dp" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go here"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="427dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="470dp" />
 
     <TextView
         android:id="@+id/textView24"
@@ -37,6 +37,14 @@
         android:text="Website:http://www.raumen.co.jp/
 Address:〒222-0033 Yokohama-shi,kouhoku-ku,shinyokohama,２-１４−２１
 "
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="624dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="449dp"
+        android:layout_height="211dp"
+        app:srcCompat="@drawable/ramen"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="11dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
