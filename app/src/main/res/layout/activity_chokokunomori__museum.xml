@@ -11,16 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chōkokunomori Museum"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="188dp" />
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="229dp" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="There are also athletics, so you can enjoy it from children to couples. If you are tired of watching art, there is also a free footbath so you can relax and relax."
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="307dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="313dp" />
 
     <Button
         android:id="@+id/button12"
@@ -37,6 +37,14 @@
         android:text="Website:https://www.hakone-oam.or.jp/
 Address:〒250-0407 Ashigarashimogun,hakonemachi,ninotaira,１１２１
 "
-        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="586dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/choukokunomori"
+        tools:layout_editor_absoluteX="-88dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
