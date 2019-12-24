@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fuji Television Network, Inc"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="338dp" />
 
     <TextView
         android:id="@+id/textView29"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text=" It is a place where Japanese TV recording is performed. A place where you can experience a set of Japanese programs. The appearance is also characteristic and the sphere is a symbol."
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="424dp" />
 
     <Button
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="362dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="547dp" />
 
     <TextView
         android:id="@+id/textView30"
@@ -40,5 +40,13 @@ Business Hours: 10:00am-6:00pm
 Website: https://www.fujitv.co.jp/index.html
 "
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="530dp" />
+        tools:layout_editor_absoluteY="626dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="325dp"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/fujitelevision"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="33dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

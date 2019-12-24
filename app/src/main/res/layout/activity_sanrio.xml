@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sanrio">
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sanrio Puroland"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A theme park where you can interact with Sanrio characters. The famous one is Hello Kitty. Because it is a front Hankan indoor type, it is a place where you can enjoy without worrying about the weather."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 1-31 Ochiai, Tama City, Tokyo
+Telephone: 0337798148
+Business Hours: 8:30am-8:oopm
+Website: https://www.puroland.jp/
+"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="335dp"
+        android:layout_height="306dp"
+        app:srcCompat="@drawable/sanrio"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
