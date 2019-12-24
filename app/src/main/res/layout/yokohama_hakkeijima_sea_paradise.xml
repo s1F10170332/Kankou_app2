@@ -12,26 +12,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go here"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="406dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Yokohama・Hakkeijima sea paradise"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="199dp" />
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="234dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The place where you can enjoy both an aquarium and an amusement park is attractive. Attractions such as roller coasters are powerful and recommended
+        android:text="
 Website:http://www.seaparadise.co.jp/
 Address:〒236-0006 Yokohama-shi,kanazawa-ku,Yokohama・Hakkeijima sea paradise
 TEL: 045-788-8888
 "
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="391dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:srcCompat="@drawable/hakeijima"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The place where you can enjoy both an aquarium and an amusement park is attractive. Attractions such as roller coasters are powerful and recommended"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="322dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
