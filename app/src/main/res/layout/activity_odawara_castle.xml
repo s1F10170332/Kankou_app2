@@ -11,16 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Odawara castle"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="178dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="216dp" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cherry blossoms in spring, fresh greenery in early summer, night view under the moonlight in autumn, and a castle tower in winter with a clear sky can be enjoyed throughout the season by those who do not like history."
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="301dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="292dp" />
 
     <Button
         android:id="@+id/button9"
@@ -38,6 +38,14 @@
 Address:Odawara-shi,jyounai,3-22
 TEL:0465-23-1373
 "
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="591dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="482dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/odawara_jyou"
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="33dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

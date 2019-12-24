@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Meigetsu-in"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="192dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="227dp" />
 
     <TextView
         android:id="@+id/textView47"
@@ -27,8 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go here"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="463dp" />
 
     <TextView
         android:id="@+id/textView48"
@@ -36,6 +36,14 @@
         android:layout_height="wrap_content"
         android:text="Address:〒247-0062　 Kamkura-shi,yamanouchi,189
 TEL:0467-24-3437"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="613dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="464dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/meigetuin"
+        tools:layout_editor_absoluteX="-28dp"
+        tools:layout_editor_absoluteY="27dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
