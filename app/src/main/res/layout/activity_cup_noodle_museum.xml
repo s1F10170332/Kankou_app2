@@ -20,18 +20,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cup noodle museum"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="222dp" />
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="244dp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Not only families with children but also adults can enjoy themselves. The original cup noodles made according to your taste will surely become a wonderful memorial
+        android:text="
 Website:https://www.cupnoodles-museum.jp/ja/yokohama/
 Address:〒231-0001 Yokohama-shi,naka-ku,shinminato,2-3-4
 045-345-0918
 "
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="572dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="591dp"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/kapunu_doru"
+        tools:layout_editor_absoluteX="-90dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not only families with children but also adults can enjoy themselves. The original cup noodles made according to your taste will surely become a wonderful memorial"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="338dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
