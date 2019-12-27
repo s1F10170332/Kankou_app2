@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".haneda_ariport">
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haneda airport"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is the fourth largest airport in the world. Each terminal has an observation deck where you can see airplanes and night views, shopping facilities where Japanese specialties are gathered, and restaurants where you can enjoy carefully selected gourmets. In recent years, it has become a very lively dating spot."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:
+Haneda Airport, Ota-ku, Tokyo
+Telephone: 0357578111
+Business Hours: open 24 hours
+Website: https://www.tokyo-airport-bldg.co.jp/
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="344dp"
+        android:layout_height="281dp"
+        app:srcCompat="@drawable/haneda_airport"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="35dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

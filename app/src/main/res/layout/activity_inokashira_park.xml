@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inokashira_park">
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inokashira Park"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Even though it is an urban park, various vegetation grows every season, and various creatures live. The park is a valuable place where you can observe such creatures closely and learn about the mechanism of nature."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 1-18-31 Gotenyama, Musashino City, Tokyo
+
+Telephone: 0422476900
+Business Hours: open 24 hours
+Website: http://www.kensetsu.metro.tokyo.jp/jimusho/seibuk/inokashira/index.html
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/inokashira_park"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="73dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
