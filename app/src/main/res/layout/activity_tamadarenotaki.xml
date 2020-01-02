@@ -10,25 +10,41 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Go here"
         tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteY="431dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="tamadarenotaki"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="199dp" />
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="255dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The famous singer Akiko Yosano is said to be a waterfall that she loved so much that the atmosphere of this waterfall was left in the song.
+        android:text="
 Address:〒250-0311　 Ashigarashimogun,hakonemachi,yumoto682
 "
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="658dp"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/tamadare"
+        tools:layout_editor_absoluteX="-138dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The famous singer Akiko Yosano is said to be a waterfall that she loved so much that the atmosphere of this waterfall was left in the song."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="318dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

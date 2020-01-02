@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="135dp"
-        android:text="Button"
+        android:text="GO HERE"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         tools:layout_editor_absoluteX="153dp" />
 
@@ -21,17 +21,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Zeniaraibenzaitenugafuku Shrine"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="170dp" />
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="217dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Popular as the best power spot in Kanagawa Prefecture. If you add money and cleanse with suisui, you can expect to improve your fortune
+        android:text="
 Address:〒248-0017　 Kamakura-shi,Sasuke,2-25-16
 TEL:0467-25-1081
 "
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="545dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular as the best power spot in Kanagawa Prefecture. If you add money and cleanse with suisui, you can expect to improve your fortune"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="405dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/zeniarai"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="46dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

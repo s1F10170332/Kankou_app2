@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Yokohama Minato Mirai 21"
         tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="98dp" />
+        tools:layout_editor_absoluteY="214dp" />
 
     <TextView
         android:id="@+id/textView53"
@@ -37,4 +37,12 @@
         android:text="Website:http://minatomirai21.com/"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="591dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="456dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/minatomirai"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="39dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
