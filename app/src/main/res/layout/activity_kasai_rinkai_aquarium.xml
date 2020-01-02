@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kasai_rinkai_aquarium">
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kasai Rinkai Aquarium"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is a facility where you can see Japan's largest penguin exhibition hall. The sea creatures seen through the 30.7m glass dome above the ground are impressive. 600 kinds of sea creatures."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 6-3 Rinkaicho, Edogawa-ku, Tokyo
+Telephone: 0338695152
+Business Hours: 9:30am-5:00pm
+Website: https://www.tokyo-zoo.net/zoo/kasai/
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="310dp"
+        android:layout_height="251dp"
+        app:srcCompat="@drawable/kasai_rinkai_aquarium"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="59dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

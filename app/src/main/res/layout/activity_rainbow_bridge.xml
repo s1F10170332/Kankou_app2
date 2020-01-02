@@ -11,30 +11,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rainbow Bridge"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="344dp" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The bridge was completed in 1993. The official name is Tokyo Port Bridge in the sense of Rainbow Bridge. At night, you can see the illuminations very attractive. It is lit in the world's first three colors as a master beam."
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="434dp" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="340dp" />
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="563dp" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Address:  3-33-19 Coast, Minato-ku, Tokyo"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="507dp" />
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="365dp"
+        android:layout_height="211dp"
+        app:srcCompat="@drawable/rainbowbridge"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="70dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

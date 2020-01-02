@@ -9,7 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".search"></activity>
+        <activity android:name=".showa_memorial_park"></activity>
+        <activity android:name=".sinjukugyoen" />
+        <activity android:name=".inokashira_park" />
+        <activity android:name=".haneda_ariport" />
+        <activity android:name=".divercity_tokyo" />
+        <activity android:name=".shibuya109" />
+        <activity android:name=".ameyoko" />
+        <activity android:name=".tokyo_solamachi" />
+        <activity android:name=".aqua_park_shinagawa" />
+        <activity android:name=".kasai_rinkai_aquarium" />
+        <activity android:name=".ueno_zoo" />
+        <activity android:name=".sumida_aquarium" />
+        <activity android:name=".asakusa_hanayaski" />
+        <activity android:name=".ooedo_onsen" />
+        <activity android:name=".Sanrio" />
+        <activity android:name=".search" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">

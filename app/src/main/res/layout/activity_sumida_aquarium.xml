@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sumida_aquarium">
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumida Aquarium"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is an aquarium in Tokyo Skytree Town Solamachi. It boasts the largest open water tank in Japan. At night, the blue lights can taste a mysterious space."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 1-2, Oshiage 1-2-chome, Sumida-ku, Tokyo 5-6F, Tokyo Skytree Town Solamachi
+Telephone: 0356191821
+Business Hours: 9:00am-9:00pm
+Website: https://www.sumida-aquarium.com/
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="318dp"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/sumidasuizokukan"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="30dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

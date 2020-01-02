@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Odaiba Seaside Park"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteY="397dp" />
 
     <TextView
         android:id="@+id/textView26"
@@ -20,15 +20,15 @@
         android:layout_height="wrap_content"
         android:text="It is a place with a beautiful view. Panoramic view of Rainbow Bridge, Tokyo Tower and Statue of Liberty"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="211dp" />
+        tools:layout_editor_absoluteY="476dp" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="347dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="551dp" />
 
     <TextView
         android:id="@+id/textView27"
@@ -38,6 +38,14 @@
 Telephone: 0355310852
 Website:  http://www.tptc.co.jp/park/01_02
 "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="495dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="375dp"
+        android:layout_height="294dp"
+        app:srcCompat="@drawable/odaibaseasidepark"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="32dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
